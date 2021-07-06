@@ -2,88 +2,48 @@ body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
+
+
+
+
+.topnav {
+    overflow: hidden;
+    background-color: rgba(0, 255, 255, 0.397);
+  }
+  
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+ 
+    color:black;
+  }
+
+
+
+
+
+
+
+
+
 a{
     text-decoration: none;
    
 }
-
-/* for menu/dropdown menu start*/
-ul,
-li{
-    list-style: none;
-}
-.nav{
-    
-    width: 50%;
-    height: 60px;
-    box-shadow: 10px 10px 30px rgb(192, 180, 180);
-    background: rgb(26, 40, 117);
-    margin: 0 10px;
-    border-radius: 10px;
-} 
-
-.nav ul li{
-    float: left;
-    padding:0 60px;
-    position: relative;
-   width: 80px;
-
-   
-}
-.nav ul li:hover ul{
-    visibility: visible;
-    opacity: 1;
-}
-.nav ul li a{
-    line-height: 25px;
-    color: rgb(121, 90, 90);
-    font-weight: 800;
-    font-size: 20PX;
-    font-family: 'Varela', sans-serif;
-    padding:5px 5px;
-    border-radius: 10px;
-    display: block;
-   
-}
-.nav ul li ul {
-    position: absolute;
-    font-size: 30px;
-    left: 0; 
-    transform: translate(-15%,0);
-    visibility: hidden;
-    opacity: 0;
-    text-align: center;
-     
-}
-.nav ul li ul a{
-    font-size: 15px;
-}
-.nav ul li a:hover{
-color: rgb(32, 150, 197);
-background: rgb(211, 204, 204);
-box-shadow: 10px 10px 30px rgb(107, 119, 124);
-transition: all linear 0.3s;
-}
-.nav H1{
-    display: inline-block;
-    padding: 0 150px;
-    line-height: 20px;
-    font-family: 'Nosifer', cursive;
-    color: rgb(87, 76, 76);
-    font-size: 20PX;
-   
-}
-.head{
-    display: flex;
-    padding-bottom:50px ;
-
-}
-/* for menu/dropdown menu end*/
-
-
-/* 1st section start from here */
 .orange{
-    color: rgb(255, 81, 0);
+    color: orange;
 }
 h1{
     font-size: 45px;
@@ -112,13 +72,13 @@ padding-left: 60px;
 .secdiv1 img{
 width: 80%;
 }
-
 /* 2nd section start from here */
+
 .section2{
-    background-image: url(10.jpg);
+    background-image: url(img/Frame\ 59.jpg);
     background-repeat: no-repeat;
     height: 600px;
-    width: 650px;
+    width: 1350px;
     background-size: cover;
     background-position: center;
 }
@@ -129,11 +89,11 @@ width: 80%;
     text-align: justify;
 }
 .ss{
-    width: 60%;
+    width: 50%;
     padding-left: 5%;
 }
 .ss img{
-    width: 60%;
+    width: 50%;
     height: 600px;
     padding-left: 20%;
 }
@@ -147,16 +107,12 @@ h2{
 .text{
     text-align: center;
 }
-
-
-/* 3rd section start from here */
 .section3{
     margin: 10px 0;
     width: 400px;
     padding: 20px 450px;
 }
 
-/* 4th section start from here */
 .secdiv4 img{
     width: 90%;
     height: 200px;
@@ -166,29 +122,27 @@ h2{
     
 }
 .secdiv4{
-    height: 500px;
+    height: 450px;
     width: 300px;
     margin-left: 90px;
     margin-right: 90px;
-    box-shadow: 10px 10px 30px greenyellow (153, 145, 145);
+    box-shadow: 10px 10px 30px rgb(153, 145, 145);
     border-radius: 20px;
     
 }
-.sec4{
+.sec5{
     display: flex;
 }
 .secdiv4 h1{
-    font-size: 35px;
+    font-size: 30px;
 }
-.sec4{
+.sec5{
     margin-bottom: 50px;
 }
-
-/* footer start from here */
 .foot{
     width: 1350px;
-    height: 120px;
-    background: rgb(13, 13, 14);
+    height: 150px;
+    background: black;
     text-align: center;
     padding-top: 10px;
 }
@@ -196,5 +150,5 @@ h2{
     color: rgb(75, 67, 67);
 }
 .foot p{
-    color: rgb(253, 23, 7);
+    color: rgb(255, 255, 255);
 }
